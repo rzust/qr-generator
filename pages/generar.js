@@ -68,7 +68,7 @@ const Generate = () => {
                         </h1>
                         {/* <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">Genera y descarga tu QR aquí sin compromisos. Sin registro, sin pago.</p> */}
                         <div class="mt-5 sm:mt-8">
-                            <input type="url" id="website" name="website" placeholder="https://creatuqr.com" required
+                            <input type="url" id="website" name="website" placeholder="https://generarcodigo.com" required
                                 className="px-2 border-gray-300 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border rounded-md px-8 py-3 mb-4"
                             />
 
@@ -89,7 +89,7 @@ const Generate = () => {
                                         options={options}
                                         className="my-4"
                                     />
-                                    <div className="flex justify-between">
+                                    <div className="flex justify-center">
                                         { downloadUrl ? <>
                                                 <a  href={downloadUrl} download="myqr.png"
                                                     className="flex items-center justify-center mb-4 px-4 py-1 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-3 md:text-lg md:px-5"
