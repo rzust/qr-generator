@@ -6,6 +6,8 @@ const Layout = (props) => {
             <Head>
                 <title>{ props.title }</title>
                 <link rel="icon" href="/favicon.ico" />
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7651353284098646"
+                crossorigin="anonymous"></script>
             </Head>
             
             <div class="relative bg-white overflow-hidden">
