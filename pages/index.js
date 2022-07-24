@@ -19,7 +19,7 @@ export default function Home() {
                     <div class="flex items-center justify-between w-full md:w-auto">
                       <a href="#">
                         <span class="sr-only">Genera tu QR</span>
-                        <img alt="generatuqr" class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"/>
+                        <img alt="generatuqr" class="h-8 w-auto sm:h-10" src="/static/logo.png"/>
                       </a>
                     </div>
                   </div>
